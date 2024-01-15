@@ -23,6 +23,12 @@
     font-weight: 400;
 }
 
+.common-heading{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
 .primary-btn{
     padding: 11px 30px;
     color: white;
@@ -76,6 +82,14 @@ nav{
 .hamburger-menu{
     display: none;
 }
+
+.menu>ul>li>a:hover{
+    color: var(--theme-color);
+}
+
+button:hover{
+    cursor: pointer;
+}
 /* Banner Section */
 
 .banner{
@@ -90,6 +104,7 @@ nav{
     justify-content: center;
     text-align: center;
     /* padding-top: 100px; */
+    margin-bottom: 100px;
 }
 .banner-text{
     width: 60%;
@@ -103,8 +118,6 @@ nav{
 .banner-text>p{
     color: #FFF;
 }
-
-
 
 .banner-form{
     background-color: #ffffff5e;
@@ -131,3 +144,39 @@ nav{
 }
 
 /* Our Popular Tours Section Start Here */
+
+.our-popular-tours{
+    width: 82%;
+    margin: 50px auto;
+    display: flex;
+    gap: 50px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.popular-tours-text h2{
+    padding-bottom: 45px;
+}
+.popular-tours-text .common-text{
+    color: rgba(19, 19, 24, 0.70);
+    padding-bottom: 24px;
+    line-height: 26px;
+}
+
+.popular-tours-list{
+    padding-left: 20px;
+    /* margin-left: 0; */
+    /* border: 1px solid tomato; */
+    color: rgba(19, 19, 24, 0.70);
+    /* list-style-position: inside; */
+}
+
+.popular-tours-list li{
+    padding-bottom: 16px;
+}
+
+#tour-button{
+    margin-top: 32px;
+}
+
+/* Choose Your Destination Section Start Here */

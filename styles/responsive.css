@@ -22,7 +22,9 @@
 
     /* Banner Responsive */
 
-    
+    .banner{
+        margin-bottom: 30px;
+    }
     .banner-text{
         width: 90%;
         padding-bottom: 25px;
@@ -64,4 +66,26 @@
 
     /* Our Popular Tours Section Start Here */
 
+    .our-popular-tours{
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .popular-tours-text h2{
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+    .popular-tours-text p li{
+        font-size: .9rem;
+    }
+    #tour-button{
+        margin-top: 0px;
+    }
+    .popular-tours-images img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Choose Your Destination Section Star Here */
 }
