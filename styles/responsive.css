@@ -21,4 +21,47 @@
     }
 
     /* Banner Responsive */
+
+    
+    .banner-text{
+        width: 90%;
+        padding-bottom: 25px;
+    }
+    .banner-title{
+        font-size: 1.9rem;
+        padding-bottom: 8px;
+    }
+    .banner-description{
+        font-size: .9rem;
+    }
+    .banner-form{
+        width: 80%;
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .banner-form{
+        width: 80%;
+    }
+    .form-field-cotainer, .banner-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .form-box{
+        padding: 15px;
+        width: 280px;
+    }
+    .banner input[type=text]{
+        width: 250px;
+    }
+    .banner button{
+        width: 280px;
+        justify-content: center;
+    }
+
+    /* Our Popular Tours Section Start Here */
+
 }
