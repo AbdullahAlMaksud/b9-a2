@@ -63,7 +63,7 @@ nav, .company-logo, .menu>ul{
 }
 
 nav{
-    margin: 20px 0;
+    margin: 5vmin 0;
     justify-content: space-between;
 }
 
@@ -144,7 +144,7 @@ button:hover{
 
 }
 
-.form-field-cotainer{
+.form-field-container{
     display: flex;
     gap: 24px;
 }
