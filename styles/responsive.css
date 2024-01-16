@@ -301,26 +301,15 @@
     flex-direction: column;
     gap: 16px;
 }
-.discount-images img{
-    display: none;
-    height: 100%;
+
+.newsletter-images{
     width: 100%;
-    object-fit: cover;
-    border-radius: 16px;
-    /* z-index: 2; */
-}
-.discount-images{
-    width: 90%;
     height: 400px;
 }
 
 .discount-stamp{
-    display: none;
-    padding: 20px auto;
-    width: 180px;
-    top: 62vmin;
-    left: 25vmin;
-}
+    top: 64%;
+    left: 28%;
 
 /* Footer Section Start Here */
 
@@ -330,15 +319,11 @@
 }
 .social-links{
     padding-bottom: 20px;
-    margin-bottom: 35px;
-}
-
-.footer-container{
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .copyright{
-    
+    margin-bottom: 0px;   
 }
 
 }

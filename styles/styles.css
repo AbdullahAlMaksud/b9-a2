@@ -4,6 +4,7 @@
 
 :root{
     --theme-color: #FF5400;
+    /* --theme-color: purple; */
     --common-gray: #5A5A5D;
 }
 
@@ -33,7 +34,7 @@
     padding: 11px 30px;
     color: white;
     border-radius: 8px;
-    background: #FF5400;
+    background: var(--theme-color);
     display: flex;
     align-items: center;
     gap: 10px;
@@ -529,22 +530,25 @@ padding: 40px;
     justify-content: center;
 }
 
-.discount-images{
-    position: absolute;
+.newsletter-images{
+    width: 100%;
+    height: auto;
+    background-image: url('../assets/images/discount.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 16px;
-    /* border: 1px solid black; */
-    /* max-height: 400px; */
 }
 
 .discount-stamp{
+    width: 180px;
     position: relative;
     background-color: var(--theme-color);
     padding: 30px 40px;
     text-align: center;
     border-radius: 16px;
     color: white;
-    top: 66%;
-    left: 156%;
+    top: 68%;
+    left: 66%;
     transform: rotate(-17deg);
 }
 
@@ -594,7 +598,8 @@ footer{
     font-size: 1rem;
     font-weight: 300;
 }
-//////////////
-nav, .our-popular-tours, .banner, .choose-your-destination, .why-choose-us, .deals-and-discounts, .video-feature, .newsletter-container {
+
+
+/* header, .our-popular-tours, .choose-your-destination, .why-choose-us, .deals-and-discounts, .video-feature, footer{
     display: none;
-}
+} */
