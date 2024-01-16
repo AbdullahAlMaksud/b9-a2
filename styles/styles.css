@@ -414,8 +414,80 @@ button:hover{
 
 /* Video Section Start Here */
 
+.video-feature{
+    width: 82%;
+    margin: 100px auto;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.video-textbox>h2{
+    width: 90%;
+    padding-bottom: 24px;
+}
+
+.video-textbox>p{
+    color: var(--common-gray);
+}
+.video-textbox>p, .video-textbox li{
+    padding-bottom: 24px;
+    width: 90%;
+}
+
+
+.video-textbox ul{
+    font-weight: 700;
+    padding-left: 20px;
+    color: #131318;
+}
+
+.video-textbox button{
+    margin-top: 8px;
+}
+
+.video-box{
+    width: 100%;
+    /* height: 400px; */
+    /* border: 1px solid tomato; */
+    position: relative;
+}
+
+.video-box video{
+    width: 100%;
+    height: 394px;
+    max-height: auto;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.videobox-over-text{
+    position: absolute;
+    width: 50%;
+    top: 40%;
+    text-shadow: 0px 0px 40px black;
+    right: 25%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.videobox-over-text .common-subheading{
+    color: #FFF;
+}
+
+
+.videobox-over-text:hover{
+    transition: 1s;
+    /* transform: scale(.001); */
+    opacity: 0%;
+}
+
+
+/* Newsletter Section Start Here */
+
+
 
 /* ////////////// */
-/* nav, .our-popular-tours, .banner, .choose-your-destination, .why-choose-us{
+/* nav, .our-popular-tours, .banner, .choose-your-destination, .why-choose-us, .deals-and-discounts{
     display: none;
 } */
