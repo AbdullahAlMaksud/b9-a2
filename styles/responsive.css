@@ -94,7 +94,7 @@
         margin: 20px auto;
         margin-top: 5px;
     }
-    .choose-your-destination>h2{
+    .choose-your-destination>h2, .why-choose-us>h2{
         font-size: 1.5rem;
         padding-bottom: 5px;
     }
@@ -142,6 +142,64 @@
     }
     
 /* Why-Choose-Us Section Start Here */
+.why-choose-us{
+    width: 90%;
+    margin: 10px auto;
+}
 
-    
+.why-choose-us>p{
+    text-align: center;
+    width: 100%;
+    font-size: .9rem;
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    color: #5A5A5D;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.why-choose-card>p{
+    color: #5A5A5D;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+
+.why-choose-card{
+    /* width: 100%; */
+    padding: 0px 32px;
+    padding-bottom: 32px;
+}
+
+.why-choose-card .h4{
+    font-size: 1.2rem;
+}
+
+.why-choose-card img{
+    width: 48px;
+    padding: 32px 0px;
+}
+
+.why-choose-us-container{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 16px
+}
+
+.hotel{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.service{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.price{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+ 
+/* Deals & Discounts Section Start Here */
+
 }
