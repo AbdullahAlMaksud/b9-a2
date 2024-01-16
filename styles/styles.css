@@ -485,9 +485,74 @@ button:hover{
 
 /* Newsletter Section Start Here */
 
+.newsletter-container{
+    width: 82%;
+    margin: 50px auto;
+    display: flex;
+    gap: 24px;
+}
+
+.newsletter-form{
+border: 1px solid var(--theme-color);
+border-radius: 16px;
+padding: 40px;
+}
+
+.newsletter-form>p{
+    padding-bottom: 24px;
+    color: var(--common-gray);
+    line-height: 26px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    margin-bottom: 24px;
+}
+
+.newsletter-form>form{
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-form>form input{
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    /* margin-bottom: 16px; */
+}
+
+.newsletter-form-field {
+    background-color: rgba(19, 19, 24, 0.05);
+    margin-bottom: 16px;
+}
+
+#newsletter-button{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.discount-images{
+    position: absolute;
+    border-radius: 16px;
+    /* border: 1px solid black; */
+    /* max-height: 400px; */
+}
+
+.discount-stamp{
+    position: relative;
+    background-color: var(--theme-color);
+    padding: 30px 40px;
+    text-align: center;
+    border-radius: 16px;
+    color: white;
+    top: 66%;
+    left: 156%;
+    transform: rotate(-17deg);
+}
+
+
+/* Footer Section Start Here */
 
 
 /* ////////////// */
-/* nav, .our-popular-tours, .banner, .choose-your-destination, .why-choose-us, .deals-and-discounts{
+/* nav, .our-popular-tours, .banner, .choose-your-destination, .why-choose-us, .deals-and-discounts, .video-feature {
     display: none;
 } */

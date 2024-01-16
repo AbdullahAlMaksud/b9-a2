@@ -295,4 +295,38 @@
 
 /* NewLetter Section Start Here */
 
+.newsletter-container{
+    width: 90%;
+    margin: 25px auto;
+    flex-direction: column;
+    gap: 16px;
+}
+.discount-images img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    /* z-index: 2; */
+}
+.discount-images{
+    width: 90%;
+    height: 400px;
+    position: absolute;
+    /* border: 2px solid black; */
+}
+
+.discount-stamp{
+    position: relative;
+    padding: 20px auto;
+    color: white;
+    width: 200px;
+    top: 255px;
+    /* bottom: 9000%; */
+    left: 85px;
+    transform: rotate(-17deg);
+    /* border: 2px solid black; */
+}
+
+/* Footer Section Start Here */
+
 }
