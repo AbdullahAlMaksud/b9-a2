@@ -179,4 +179,84 @@ button:hover{
     margin-top: 32px;
 }
 
+
 /* Choose Your Destination Section Start Here */
+
+.choose-your-destination{
+    width: 82%;
+    margin: 100px auto;
+    text-align: center;
+}
+.choose-your-destination>p{
+    color: rgba(19, 19, 24, 0.70);
+    padding-bottom: 30px;
+    padding-top: 15px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* border: 1px solid tomato; */
+    height: 700px;
+    gap: 24px;    
+}
+
+.gallery-text{
+    /* border: 2px solid purple; */
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.one{
+    grid-column: 1/7;
+    grid-row: 1/2;
+    background-image: url('../assets/images/maldiv.png');
+}
+.two{
+    grid-column: 7/13;
+    grid-row: 1/2;
+    background-image: url('../assets/images/indonesia.png');
+}
+
+.three{
+    grid-column: 1/5;
+    grid-row: 2/3;
+    background-image: url('../assets/images/srilanka.png');
+}
+
+.four{
+    grid-column: 5/10;
+    grid-row: 2/3;
+    background-image: url('../assets/images/north-america.png');
+}
+
+.five{
+    grid-column: 10/13;
+    grid-row: 2/3;
+    background-image: url('../assets/images/kashmir.png');
+}
+
+.six{
+    grid-column: 1/6;
+    grid-row: 3/4;
+    background-image: url('../assets/images/bangladesh.png');
+}
+
+.seven{
+    grid-column: 6/13;
+    grid-row: 3/4;
+    background-image: url('../assets/images/bandarban.png');
+}
+
+
+/* Why-Choose-Us Section Start Here */
