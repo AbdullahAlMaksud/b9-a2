@@ -327,6 +327,93 @@ button:hover{
 }
 
 /* Deals & Discounts Section Start Here */
+.deals-and-discounts{
+    width: 82%;
+    margin: 50px auto;
+}
+
+.deals-and-discounts>h2, .deals-and-discounts>p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.deals-and-discounts>button{
+    margin: 0 auto;
+}
+
+.deals-and-discounts>p{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.deals-container{
+    min-height: 500px;
+    background-image: url('../assets/images/deals-1.png');
+    background-size: cover;
+    background-position: center;
+    /* background-clip: border-box; */
+    border-radius: 16px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+#deals-container-left{
+    background-image: url('../assets/images/deals-2.png');
+    display: flex;
+    justify-content: start;
+}
+
+.deals-card{
+    background-color: #ffffffb7;
+    border: 2px solid white;
+    width: 40%;
+    height: auto;
+    padding: 50px;
+    border-radius: 16px;
+    margin: 6% 0;
+    margin-right: 6%;
+    margin-left: 6%;
+}
+
+.deals-card .common-description{
+    color: var(--common-gray);
+}
+
+.deals-card>h2{
+    padding-top: 26px;
+    padding-bottom: 16px;
+}
+
+.deals-card>p{
+    width: 90%;
+}
+
+.deals-card>h3{
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.time-place{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.time-place-subcontainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.deals-card>button{
+    margin-bottom: 0px;
+}
+
+
+/* Video Section Start Here */
+
 
 /* ////////////// */
 /* nav, .our-popular-tours, .banner, .choose-your-destination, .why-choose-us{

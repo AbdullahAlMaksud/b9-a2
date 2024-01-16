@@ -94,11 +94,11 @@
         margin: 20px auto;
         margin-top: 5px;
     }
-    .choose-your-destination>h2, .why-choose-us>h2{
+    .choose-your-destination>h2, .why-choose-us>h2, .deals-and-discounts>h2{
         font-size: 1.5rem;
         padding-bottom: 5px;
     }
-    .choose-your-destination>p{
+    .choose-your-destination>p, .deals-and-discounts>p{
         width: 90%;
         font-size: .9rem;
     }
@@ -201,5 +201,74 @@
 }
  
 /* Deals & Discounts Section Start Here */
+
+.deals-and-discounts{
+    width: 90%;
+    margin: 20px auto;
+}
+
+
+.deals-and-discounts>p{
+    margin: 0 auto;
+}
+
+.deals-and-discounts>button{
+    display: none;
+}
+
+.deals-container{
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 16px;
+}
+
+#deals-container-left{
+    justify-content: center;
+}
+
+.deals-card{
+    width: 70%;
+    height: min-content;
+    padding: 25px;
+    margin: 0 auto;
+    margin-bottom: 8%;
+}
+
+.deals-card .common-description{
+    color: var(--common-gray);
+}
+
+.deals-card>h2{
+    font-size: 1.2rem;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+
+.deals-card>p{
+    font-size: .9rem;
+    width: 100%;
+    max-height: 55px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.deals-card>h3{
+    font-size: 1rem;
+    padding: 16px 0;
+}
+
+.time-place{
+    flex-wrap: wrap;
+}
+.time-place-subcontainer{
+    gap: 5px;
+    font-size: .9rem;
+}
+
+.deals-card>button{
+    margin-bottom: 0px;
+}
+
+/* Video Section Start Here */
 
 }
