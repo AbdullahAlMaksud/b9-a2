@@ -1,6 +1,6 @@
 /* Universal Section */
 
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 
 :root{
     --theme-color: #FF5400;
@@ -551,8 +551,50 @@ padding: 40px;
 
 /* Footer Section Start Here */
 
+footer{
+    padding: 50px 0;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+.footer-container{
+    width: 82%;
+    margin: 50px auto;
+    text-align: center;
+}
 
-/* ////////////// */
-/* nav, .our-popular-tours, .banner, .choose-your-destination, .why-choose-us, .deals-and-discounts, .video-feature {
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.footer-container>.common-description{
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 32px;
+    color: var(--common-gray);
+}
+
+.social-links{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid lightgray;
+}
+
+.social-links>a:hover{
+    transition: 1s;
+    transform: scale(1.5);
+}
+.copyright{
+    color: #131318;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 300;
+}
+//////////////
+nav, .our-popular-tours, .banner, .choose-your-destination, .why-choose-us, .deals-and-discounts, .video-feature, .newsletter-container {
     display: none;
-} */
+}
